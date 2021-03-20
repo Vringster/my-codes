@@ -1,1 +1,36 @@
 /* This is CSS file for my website */
+  /* id selector */
+
+  html{
+    font-family: "Gabriel Weiss' Friends Font", cursive;
+  }
+  .defaultPara{
+    color: purple;
+    background-color: greenyellow;
+  }
+  /* id selector */
+  #redPara_01{
+    color: red;
+  }
+  /* grouping selector */
+  footer, h3, h2, h1, h4, h5, h6{
+    background-color: pink;
+  }
+
+  /* Form_01 CSS */
+  .form_01{
+    color: greenyellow;
+    background-color: rgb(0, 128, 128);
+  }
+
+  #tryingFonts_01{
+    font-family: 'Gabriela', calibri, cursive;
+    font-size: 23px;
+    line-height: 8em;
+  }
+
+  .tealColourText{
+    color: teal;
+    font-weight: bold;
+    font-style: italic;
+  }

@@ -1,47 +1,196 @@
 <!DOCTYPE html>
-<!-- The code starts here -->
-<html lang="en" dir="ltr">
-  <head>
-    <!-- To indicate that you are coding in UTF-8 -->
-    <meta charset="utf-8">
-    <!-- To make the website's width the width of the device -->
-    <meta name= "viewport" content= "width=device-width, initial space=1.0">
-    <!-- Tool to make the website compatible for Internet Explorer -->
-    <meta http-equiv= "X-UA-Compatible" content="ie-edge">
-    <!-- Search Engines can see the description of your website -->
-    <meta name="description" content="This is my first official attempt at creating a website
-        hope you like it <3">
-    <!-- Search Engines can see keywords of your website to reccommend it -->
-    <meta name= "keywords" content="html, css, first, try, attempt, why not
-    , woohooo, let's goo, website, official, yesss, web, development">
+  <!-- The code starts here -->
+  <html lang="en" dir="ltr">
+    <head>
+      <!-- To indicate that you are coding in UTF-8 -->
+      <meta charset="utf-8">
+      <!-- To make the website's width the width of the device -->
+      <meta name= "viewport" content= "width=device-width, initial space=1.0">
+      <!-- Tool to make the website compatible for Internet Explorer -->
+      <meta http-equiv= "X-UA-Compatible" content="ie-edge">
+      <!-- Search Engines can see the description of your website -->
+      <meta name="description" content="This is my first official attempt at creating a website
+          hope you like it <3">
+      <!-- Search Engines can see keywords of your website to reccommend it -->
+      <meta name= "keywords" content="html, css, first, try, attempt, why not
+      , woohooo, let's goo, website, official, yesss, web, development, web development">
 
-    <!-- How to make search engines index and follow your website -->
-    <meta name="robots" content="INDEX, FOLLOW">
-    <!-- Including external CSS -->
-    <link rel="stylesheet" href="learning(css).css">
-    <!-- Including JS -->
-    <script src="learning(js).js"></script>
+      <!-- How to make search engines index and follow your website -->
+      <meta name="robots" content="INDEX, FOLLOW">
+      <!-- Including external CSS -->
+      <link rel="stylesheet" href="learning(css).css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="//db.onlinewebfonts.com/c/0b7d8a39b62b28cf0cfe3cea90b8baa3?family=Gabriel+Weiss'+Friends+Font" rel="stylesheet" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+      <!-- Including JS -->
+      <script src="learning(js).js"></script>
 
-    <title>
-      VringStore
-    </title>
-  </head>
-  <body>
-    <!-- h1 to h6 is Big to Small -->
-    <h1>Vinee</h1>
-    <h2>Vinee</h2>
-    <h3>Vinee</h3>
-    <h4>Vinee</h4>
-    <h5>Vinee</h5>
-    <h6>Vinee</h6>
-    <!-- Lorem+enter to get dummy text -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini <br> veniam, quis nostrud <strong>This is bold</strong>  <em>This is in italic <em>.
-      <!-- Making a horzontal line -->
-    <hr> Duis aute irure dolor in reprehenderit in voluptate
-      <!-- Lets do a line break-->
-      <br>
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid at non proident, sunt in culpa qui officia deserunt mollit <br>
-      anim id est laborum.</p>
-            <!-- Ctrl+Enter To jump to new line  -->
-  </body>
-</html>
+      <title>
+        VringStore
+      </title>
+    </head>
+    <body>
+      <!-- h1 to h6 is Big to Small -->
+      <h1>Vinee</h1>
+      <!-- Lorem+enter to get dummy text -->
+      <div class="defaultPara">
+        <p class="defaultPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini <br> veniam, quis nostrud <strong>This is bold</strong>  <em>This is in italic </em>.</p>
+        <!-- Making a horzontal line -->
+        <hr <!-- This breaks the <p> tag so make a new one -->
+        <p class="defaultPara">
+         Duis aute irure dolor in reprehenderit in voluptate
+        <!-- Lets do a line break-->
+        <br>
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid at non proident, sunt in culpa qui officia deserunt mollit <br>
+        anim id est laborum.</p>
+      </div>
+
+              <!-- Ctrl+Enter To jump to new line  -->
+      <!-- How to put Hyperlinks -->
+      <div class="tealColourText">
+        <a href="https://www.youtube.com/channel/UC1VsreB1S3aBf7DiX0a1mhA"><span class="tealColourText">My YT channel</span></a><br>
+        <!-- To make it open in a new tab -->
+        <a href="https://www.youtube.com/channel/UC1VsreB1S3aBf7DiX0a1mhA" target="_blank"><span class="tealColourText">My YT channel</span></a><br>
+        <!-- Making  a local link -->
+        <a href="D:\Vinamra\Coding\atom projects\learning.html" target="_blank"><span class="tealColourText">reload on another page?</span></a><br>
+        <!-- Putting an image -->
+        <img src="E:\il_570xN.1922065802_pf0n.jpg" alt="Flash Logo" width="100">
+        <!-- Go to source.unsplash.com for sample images -->
+        <!-- Making tables and lists -->
+      </div>
+
+      <ul type="circle">
+        <!-- Unordered List -->
+        <li>Sophie</li>
+        <li>Keefe</li>
+        <li>Fitz</li>
+      </ul>
+      <ol type="1"><!--To make it like 1. 2. 3.-->
+        <!-- Ordered list -->
+        <li>Sophie</li>
+        <li>Keefe</li>
+        <li>Fitz</li>
+      </ol>
+
+
+        <!-- Making tables-->
+        <table>
+          <h3>
+            Characters and Abilities
+          </h3>
+              <!-- Making tables -->
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Ability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sophie</td>
+              <td>Telepath</td>
+            </tr>
+            <tr>
+              <td>Keefe</td>
+              <td>Empath</td>
+            </tr>
+            <tr>
+              <td>Fitz</td>
+              <td>Telepath</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <!-- Making forms NB -->
+        <div class="form_01">
+            <!-- Making Forms NB -->
+              <h2>Survey for who all viewed this HTML file</h2>
+              <form action="backend.php">
+
+
+                <!-- putting labels -->
+                <label for="name">  Name: </label>
+                <div>
+                <input type="text" name="hisName" id='name'>
+              </div><br>
+
+
+                  <label for="date">  Date of Birth: </label>
+                <div>
+                   <input type="date" name="birthDate" id="date">
+                </div><br>
+
+                <label for="theGender">Gender</label>
+                <div>
+                Male<input type="radio" name="gender"id="theGender">
+                        Female<input type="radio" name="gender"id="theGender">
+                </div><br>
+
+                <label for="numberOfFamily">  No. of family members: </label>
+                <div>
+                  <input type="number" name="familyNum" id="numberOfFamily">
+                </div><br>
+
+                <label for="Discord">Discord:</label>
+                <div>
+                  <input type="checkbox" name="hisDis" id="Discord">
+                </div><br>
+
+
+                <label for="youtube">YouTube:</label>
+                <div>
+                  <input type="checkbox" name="hisYou" id="youtube">
+                </div><br>
+
+                <label for="email">Email:</label>
+                <div>
+                   <input type="email" name="hisEmail" id="email">
+                </div><br>
+
+                <label for="time">Time of Submission:</label>
+                <div>
+                   <input type="time" name="submitTime" id="time">
+                </div><br>
+
+                <label for="info">Write about yourself:</label>
+                <div>
+                  <br>  <textarea name="aboutMe" cols="80" rows="8" id="info"></textarea>
+                </div><br>
+
+                <label for="shirt">T-Shirt</label>
+                <div class="">
+                    <select name="myShirt" id="shirt">
+                      <option value="none">None</option>
+                      <option value="vringLogo" selected>Logo</option>
+                      <option value="vringFace">Face</option>
+                    </select>
+                </div><br>
+
+
+                <div>
+                  <input type="submit" value="Submit">
+
+                  <input type="reset" value="Reset">
+                </div><br>
+
+              </form>
+          </div>
+          <div class="defaultPara">
+            <!-- Making characters Which we can't make in normal keyboard -->
+            <p class="defaultPara">This is how we write &pound;<br>
+          This is how we write &copy;<br>
+          This is how we make &#128512; lmao nice right?<br>
+          <p id="redPara_01" class="defaultPara">Making empty characters: &#8203;</p>
+          </div>
+
+          <h4>Lets get to fonts</h4>
+          <p class="defaultPara" id="tryingFonts_01">Lets play with fonts people, it is excitingggg</p>
+          <h2>Playing with colors</h2>
+          <p id="redPara_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <footer>My <span class="tealColourText">footer</span> people</footer>
+        </body> 
+
+
+
+  </html>
