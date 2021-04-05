@@ -3,6 +3,13 @@
 
   html{
     font-family: "Gabriel Weiss' Friends Font", cursive;
+    color: greenyellow;
+    padding: 40px 40px 40px 40px; /*padding = top right bottom left */
+    margin:
+  }
+  h1{
+    margin: 0px;
+    padd
   }
   .defaultPara{
     color: purple;
@@ -15,6 +22,7 @@
   /* grouping selector */
   footer, h3, h2, h1, h4, h5, h6{
     background-color: pink;
+    color: teal;
   }
 
   /* Form_01 CSS */
@@ -29,8 +37,31 @@
     line-height: 8em;
   }
 
+  #widthHeight{
+    background-image: url(https://media.istockphoto.com/photos/flying-in-a-technological-abstract-space-with-luminous-neon-tubes-picture-id1209657199?k=6&m=1209657199&s=612x612&w=0&h=4JUku0Dn6E3Qdr7lwe34eDhqkRZ_MUDZjkjb_nEVRUk=);
+    width: 612px;
+    height: 344px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: teal;
+    border-radius: 10px
+  }
+
   .tealColourText{
     color: teal;
     font-weight: bold;
     font-style: italic;
+  }
+  .first{
+    background: burlywood;
+    border: 3px solid red;
+  }
+
+  #vinee_heading{
+    text-align: center;
+  }
+
+  #lorem_01{
+    float: left;
+    width: 62%;
   }

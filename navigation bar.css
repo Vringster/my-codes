@@ -1,0 +1,22 @@
+.navbar{
+
+  background-color: greenyellow;
+}
+.navbar ul{
+  margin: auto;
+  height: 20px;
+  width: 256px;
+  overflow: auto;
+}
+.navbar li{
+
+  float: left;
+  list-style: none;
+}
+
+.navbar li a{
+
+  color: teal;
+  text-decoration: none;
+  padding: 3px 3px;
+}
